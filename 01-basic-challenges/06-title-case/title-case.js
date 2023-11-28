@@ -5,7 +5,7 @@ function titleCase(str){
       words[i]=words[i][0].toUpperCase()+ words[i].slice(1);
    }
 
-   return words.join('  ');
+   return words.join(' ');
 }
 
 module.exports = titleCase;
